@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="boton">Mi primer botón</string>
+    <string name="texto"></string>
+    <string name="aviso">No se puede cambiar</string>
+    <string name="b2">b2</string>
+    <string name="Texti">Soy segundo texto</string>
+</resources>
