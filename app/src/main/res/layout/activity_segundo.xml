@@ -5,60 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SegundoActivity">
-    <!--android:padding="90dp"-->
-
-    <TextView
-        android:id="@+id/textoSegundo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="133dp"
-        android:layout_marginLeft="133dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginRight="163dp"
-        android:text="@string/Texti"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/botonRestar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="96dp"
-        android:onClick="aumentar"
-        android:text="aumentar"
-        android:textSize="25dp"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/textoSegundo" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="44dp"
         android:onClick="restar"
         android:text="Restar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/BotonAumentar" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/BotonAumentar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
+        android:layout_marginTop="320dp"
+        android:onClick="aumentar"
+        android:text="Aumentar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonResetear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="resetear"
         android:text="Resetear"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonRestar"
+        app:layout_constraintVertical_bias="0.236" />
 
+    <TextView
+        android:id="@+id/TextoSegundo"
+        android:layout_width="152dp"
+        android:layout_height="75dp"
+        android:text="TextoSegundo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

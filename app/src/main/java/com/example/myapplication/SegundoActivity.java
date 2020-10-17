@@ -37,7 +37,7 @@ public class SegundoActivity extends AppCompatActivity {
     }
 
     public  void pintar(){
-        TextView text=(TextView) findViewById(R.id.textoSegundo);
+      TextView text=(TextView) findViewById(R.id.TextoSegundo);
 
         text.setText(" "+contador);
     }
